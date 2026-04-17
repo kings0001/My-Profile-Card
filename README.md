@@ -14,10 +14,9 @@ A responsive, accessible, and test-ready Profile Card built with vanilla HTML, C
 - CSS3 (Custom Variables & Grid)
 - Vanilla JavaScript
 
-## 📸 Preview
-![Profile Card Screenshot](https://via.placeholder.com/800x400?text=Your+Project+Screenshot+Here)
-
 ## 📥 Getting Started
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kings0001/My-Profile-Card.git](https://github.com/kings0001/your-repo-name.git)
+   git clone [https://github.com/kings0001/My-Profile-Card.git]
+   
+   Live Demo: [https://kings0001.github.io/My-Profile-Card/]
