@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <article data-testid="test-profile-card">
+        <figure class="avatar-container">
+            <img 
+                src="/images/obong.jpg" 
+                alt="Professional portrait of Obong Nkanga" 
+                data-testid="test-user-avatar"
+            >
+        </figure>
+
+        <div class="card-content">
+            <header>
+                <h2 data-testid="test-user-name">Obong Nkanga</h2>
+                <p class="time-container">
+                    Current Epoch Time: 
+                    <span data-testid="test-user-time" aria-live="polite"></span> ms
+                </p>
+            </header>
+
+            <p data-testid="test-user-bio">
+                Front-end developer with a passion for creating accessible web applications.
+                Experienced in JavaScript, React, and Node.js. Always eager to learn new technologies and improve user experience.
+            </p>
+
+            <div class="lists-grid">
+                <section>
+                    <h3>Hobbies</h3>
+                    <ul data-testid="test-user-hobbies">
+                        <li>Cooking</li>
+                        <li>Window Shopping</li>
+                        <li>Farming</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Unstructured meetings</li>
+                        <li>being broke</li>
+                        <li>Lies</li>
+                    </ul>
+                </section>
+            </div>
+
+            <nav>
+                <ul data-testid="test-user-social-links" class="social-list">
+                    <li>
+                        <a href="https://x.com/bongzzy_kings" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">X</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kings0001" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/obong-nkanga" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
